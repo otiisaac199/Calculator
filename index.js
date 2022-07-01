@@ -1,5 +1,6 @@
 const state = {
   result: 0,
+  history: "",
   currentOperation: {
     firstOperands: "",
     secondOperands: "",
@@ -130,3 +131,4 @@ document.querySelector(".ac").addEventListener("click", () => {
   renderSecondOperand();
   renderCurrentOperator();
 });
+
